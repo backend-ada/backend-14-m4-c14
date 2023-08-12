@@ -31,7 +31,7 @@ Hasta ahora, vimos que para pasar de una tarea a otra en nuestros programas, el 
 
 <h2 align="center"> Programas asincrónicos/no-secuenciales</h2>
 
-![Async programming](https://miro.medium.com/v2/resize:fit:4800/1*a3OgwgyZfqbYd9AZBZwU7g.gif 'a title')
+![Async programming](https://miro.medium.com/v2/resize:fit:4800/1*a3OgwgyZfqbYd9AZBZwU7g.gif)
 
 <h3 align="center"> ¿Son lo más frecuente de ver las situaciones sincrónicas? </h3>
 
