@@ -65,9 +65,11 @@ Así, derivamos la tarea de ejecutar el callback a un ayudante que tienen los en
 
 Con este pequeño cambio al código anterior, podremos ver el resultado de la suma luego de transcurridos 3 segundos... **¿Qué está pasando realmente?** La función **setTimeout()** pone la ejecución del callback en espera, hasta que la pila de ejecución del motor de **JavaScript** quede liberada, y luego de transcurridos los 3000 ms, se completa la función.
 
-<h3 align="center"> ¿Qué cosa es la pila de ejecición? </h3>
+<h3 align="center"> ¿Qué cosa es la pila de ejecución? </h3>
 
+<p align="center">
 <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--Kn5tSJEm--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_800/https://devtolydiahallie.s3-us-west-1.amazonaws.com/gid1.6.gif">
+</p>
 
 La **pila de ejecución** de **JavaScript** o **Call stack** es como un **mapa** que usan los motores de **JavaScript** a la hora de ejecutar un programa. Les sirve para saber **por cuál función están pasando**, y por **cuáles pasaron hasta llegar al punto donde se encuentren**. A este mapa se lo conoce como pila de ejecución o **L.I.F.O.**, **L**ast **I**n **F**irst **O**ut, el último en entrar es el primero en salir.
 
